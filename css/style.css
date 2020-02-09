@@ -1,0 +1,71 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:focus, input:focus, teaxarea:focus, button:focus{outline: 0 solid;}
+a:hover{
+	text-decoration: none;
+}
+.section-padding{margin:200px 0;padding: 60px 0;}
+/* Main CSS Stop */
+/* === Monitor BG Section CSS Start === */
+
+.section-padding.section-dark-bg {
+  color: #8b8f8e;
+  background-color: #191d1c;
+}
+body {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.7;
+}
+.section-dark-bg h1 {
+  font-size: 100px;
+  font-weight: 800;
+  color: #fff;
+}
+.section-dark-bg h4 {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+.boxed-btn {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  border: 1px solid;
+  font-size: 12px;
+  display: inline-block;
+  padding: 12px 30px;
+  margin-top: 30px;
+}
+.boxed-btn:hover {
+  background: #fff;
+  color: #000;
+  border-color: #fff;
+}
+	/* Position Img*/
+.absolute-img {
+  /*! margin-top: -170px; */
+  height: 700px;
+  position: relative;
+  top: -170px;
+  margin-bottom: -170px;
+}
+/* === Monitor BG Section CSS Stop === */
